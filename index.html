@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+    <div id="todo">
+        <h1>MY TO-DO LIST <i id="pencil" class="fas fa-pencil-alt"></i></h1>
+
+        <input class="lists" placeholder="Add new task">
+
+        <ul class="todos">
+            <li><span class="cest"><i class="fas fa-trash-alt"></i></span>Completed task<span class="exclam"><img src="img/icons8-exclamation-mark-26.png" alt=""></span></li>
+
+            <li><span class="cest"><i class="fas fa-trash-alt"></i></span>Uncompleted task<span class="exclam"><img src="img/icons8-exclamation-mark-26.png" alt=""></span></li>
+
+        </ul>
+
+
+        <ul class="buttons">
+            <button class="filter">All</button>
+            <button class="clear">Clear</button>
+            <button class="tipButton">Tips</button>
+        </ul>
+    </div>
+
+    <div id="overlay">
+        <a href="#" class="closebtn">&times;</a>
+        <ul class="tips">
+            <li>Click on the pencil to hide or show the input field</li>
+            <li>Enter text in the input field and press Enter to add a task to the list</li>
+            <li>Hover over a task and click on the trash icon to delete it</li>
+            <li>Click on the "Clear All" button to remove all tasks from the list</li>
+            <li>Click on the "Save" button to store your tasks and access them later, even if you close the browser</li>
+        </ul>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
